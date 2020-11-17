@@ -1,0 +1,153 @@
+body {
+   margin: 0;
+   text-align: center;
+   font-family: 'Dosis', serif;
+  }
+
+h1 {
+    font-size: 50px;
+   line-height: 2;
+   margin: 50px auto 0 auto;
+   color: #112d4e;
+   font-family: 'Indie Flower', cursive;
+  }
+
+h2 {
+   font-family: 'Dosis', sans-serif;
+   font-size: 2.5rem;
+  }
+
+p {
+   line-height: 2;
+   color: #112d4e;
+  }
+
+hr {
+  border: dotted #112d4e 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+
+a {
+  color: #dbe2ef;
+  font-family: 'Dosis', sans-serif;
+  margin: 10px 10px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #112d4e;
+}
+
+.pro {
+    text-decoration: underline;
+  }
+
+.programmer {
+    font-weight: normal;
+    font-size: 2.0rem;
+  }
+
+.profile{
+   width: 30%;
+   margin: auto;
+  }
+
+.contact-me {
+   width: 40%;
+   margin: 40px auto 60px;
+  }
+
+.copyright {
+  font-size: 0.90rem;
+  padding: 20px 0;
+}
+
+.top-container {
+   background-color: #dbe2ef;
+   position: relative;
+   padding-top: 100px;
+  }
+
+.middle-container {
+   margin: 100px 0;
+  }
+
+.bottom-container {
+  background-color: #3f72af;
+  padding: 50px 0 20px;
+  }
+
+.skill-row {
+   width: 50%;
+   margin: 100px auto 100px auto;
+   text-align: left;
+   background-color: #f9f7f7;
+   line-height: 2;
+  }
+
+.imagem-perfil {
+   max-width:250px;
+   max-height:200px;
+   width: auto;
+   height: auto;
+  }
+
+.image-skills-one {
+   max-width:250px;
+   max-height:200px;
+   width: auto;
+   height: auto;
+   float: left;
+   margin-right: 30px;
+  }
+
+.image-skill-two {
+   max-width:250px;
+   max-height:200px;
+   width: auto;
+   height: auto;
+   float: right;
+   margin-left: 30px;
+  }
+
+.top-cloud {
+    position: absolute;
+    right: 300px;
+    top: 50px;
+  }
+
+.bottom-cloud {
+    position: absolute;;
+    left: 300px;
+    bottom: 300px;
+  }
+
+  .btn {
+   -webkit-border-radius: 8px;
+   -moz-border-radius: 8px;
+   border-radius: 8px;
+   color: #FFFFFF;
+   font-family: 'Merriweather', serif;
+   font-size: 20px;
+   font-weight: 100;
+   padding: 17px;
+   background-color: #112D4E;
+   text-shadow: 1px 1px 20px #000000;
+   border: solid #337FED 1px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+   margin-top: 20px;
+}
+
+.btn:hover {
+   background: #3F72AF;
+   border: solid #DBE2EF 1px;
+   -webkit-border-radius: 10px;
+   -moz-border-radius: 10px;
+   border-radius: 10px;
+   text-decoration: none;
+}
